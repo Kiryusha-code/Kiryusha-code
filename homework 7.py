@@ -30,7 +30,7 @@ def print_docs(directory):
     except FileNotFoundError:
         print(f"Директория {directory} не найдена.")
 
-
+"""Задача 3"""
 def longest_words(file):
 
     try:
@@ -57,7 +57,7 @@ def longest_words(file):
     except FileNotFoundError:
         print(f"Файл {file} не найден.")
 
-"""Задача 3"""
+"""Задача 4"""
 def simple_text_editor():
     """Простейший текстовый редактор."""
     filename = input("Введите имя файла (без расширения): ") + ".txt"
@@ -68,14 +68,3 @@ def simple_text_editor():
                 break
             f.write(line + '\n')
     print(f"Файл {filename} сохранен.")
-
-
-
-read_last(3, "article.txt")  
-print("-" * 20)
-print_docs("""C:\Users\1\PythonLess\Kiryusha-code\article.txt""") 
-print("-" * 20)
-longest_words("article.txt")
-print("-" * 20)
-simple_text_editor()
-
