@@ -73,7 +73,7 @@ def simple_text_editor():
 
 read_last(3, "article.txt")  
 print("-" * 20)
-print_docs(""C:\Users\1\PythonLess\Kiryusha-code\article.txt"") 
+print_docs("""C:\Users\1\PythonLess\Kiryusha-code\article.txt""") 
 print("-" * 20)
 longest_words("article.txt")
 print("-" * 20)
