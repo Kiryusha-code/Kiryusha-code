@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog, QColorDialog
 from PyQt5.QtGui import QFont
-from text_editor_ui import Ui_MainWindow  # Импортируем сгенерированный код UI
+from text_editor_ui import Ui_MainWindow  
 
 
 class TextEditor(QMainWindow, Ui_MainWindow):
